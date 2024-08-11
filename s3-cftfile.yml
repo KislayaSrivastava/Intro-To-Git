@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+Outputs:
+  BucketName:
+    Value: 'my-s3-demo-bucket-for-cicd'
+    Description: Name of the sample Amazon s3 Bucket.
